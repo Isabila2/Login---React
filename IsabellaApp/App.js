@@ -7,6 +7,7 @@ export default function App() {
     alert("O botão não funciona ainda...");
   }
 
+
   return (
     <View style={styles.container}>
 
@@ -15,6 +16,7 @@ export default function App() {
         source={require('./src/assets/images/fundo.png')}
         style={styles.img}>
 
+
         <View style={styles.secondaryContainer}>
 
           {/* Título */}
@@ -22,7 +24,7 @@ export default function App() {
 
           {/* Caixas de textos */}
           <TextInput style={styles.inputName}
-            placeholder='Digite o seu email'
+            placeholder='Digite o seu nome'
             inputMode='text'
             placeholderTextColor='black'
           />
@@ -45,9 +47,12 @@ export default function App() {
           {/* Logo */}
           <Image
             source={require('./src/assets/images/logo.png')}
-            style={styles.logo}
+            style={styles.logo} 
             resizeMode='cover'
-          />
+            />
+
+            
+
 
         </View>
 
@@ -89,8 +94,8 @@ const styles = StyleSheet.create({
   },
   logo: {
     margin: 20,
-    width: 200,
-    height: 100,
+    width: '40%',
+    height: '10%',
   },
 
 });
