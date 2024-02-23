@@ -22,7 +22,7 @@ export default function App() {
 
           {/* Caixas de textos */}
           <TextInput style={styles.inputName}
-            placeholder='Digite o seu nome'
+            placeholder='Digite o seu email'
             inputMode='text'
             placeholderTextColor='black'
           />
