@@ -36,7 +36,6 @@ export default function App() {
 
           {/* Botão de 'Click here' */}
           <Button
-            style={{ backgroundColor: 'red' }}
             onPress={pressButton}
             title='Click here'
             color='black'
