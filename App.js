@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, Button, Image, ImageBackground } from 'react-native';
+import SecondComponent from './src/assets/components/SecondComponent';
 
 export default function App() {
 
@@ -47,7 +48,7 @@ export default function App() {
             style={styles.logo}
             resizeMode='cover'
           />
-
+          <SecondComponent />
         </View>
 
         <View style={{ width: '100%', height: 60 }}>
